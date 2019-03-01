@@ -1,0 +1,250 @@
+* {
+	border-sizing: border-box;
+}
+
+header footer {
+	clear: both;
+}
+
+header {
+	height: 50px;
+	width: 100%;
+	float: left;
+}
+
+header nav ul li {
+	float: left;
+	margin: 15px 55px 15px 55px;
+}
+
+header button {
+	background-color: black;
+	color: white;
+	width: 250%;
+}
+
+.hero img:first-of-type {
+	height: 100px;
+	width: 30%;
+	float: left;
+	image-orientation: center;
+}
+
+.hero {
+	height: 300px;
+	width: 100%;
+	float: left;
+	background-color: #f1f3f5;
+}
+
+.hero section {
+	height: 300px;
+	width: 40%;
+	float: left;
+}
+
+.hero section .jwlilogo {
+	height: 150px;
+	width: 100%;
+	float: left;
+	margin-left: 5%;
+}
+
+.hero section {
+	margin-left: 5%;
+	margin-top: 25px;
+}
+
+.hero section h2 {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.hero section p:last-of-type {
+	margin-top: 15px;
+}
+
+.hero section input {
+	width: 75%;
+}
+
+.hero section button {
+	background-color: grey;
+	color: white;
+	width: 20%;
+}
+
+.mission {
+	height: 300px;
+	width: 100%;
+	float: left;
+}
+
+.mission > p:first-child {
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 40px 35px 40px;
+	font-size: 44px;
+}
+
+.mission > p:last-child {
+	font-weight: lighter;
+	color: grey;
+	font-style: italic;
+}
+
+.history {
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-color: #f1f3f5;
+}
+
+.history section {
+	margin-left: 30px;
+	margin: 15px 55px 15px 55px;
+	width: 60%;
+	font-size: 18px;
+}
+
+.history h2 {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.history p {
+	margin-bottom: 10px;
+}
+
+.history section:last-child {
+	width: 25%;
+}
+
+.history section:last-child img {
+	width: 25%;
+}
+
+.whoweare {
+	height: 400px;
+	width: 100%;
+	float: left;
+}
+
+.whoweare h2 {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 25px 0px 25px -400px;
+	text-align: center;
+	width: 100%;
+}
+
+.whoweare img {
+	height: 300px;
+	width: 30%;
+	float: left;
+	margin: 75px 25px 50px 95px;
+}
+
+.whoweare h3  {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.whoweare p {
+	width: 95%;
+}
+
+.foundation {
+	height: 300px;
+	width: 100%;
+	float: left;
+}
+
+.foundation section {
+	height: 300px;
+	width: 45%;
+	float: left;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+.foundation section h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+footer {
+	height: 200px;
+	width: 100%;
+	float: left;
+	background-color: grey;
+	color: white;
+}
+
+footer p {
+	background-color:
+}
+
+footer form {
+
+}
+
+footer button {
+	background-color:
+	color:
+}
+
+@media only screen and (max-width: 950px){
+	.hero {
+		width: 100%;
+	}
+	.hero form {
+		display: none;
+	}
+	.hero section h2 {
+		display: none;
+	}
+	.mission {
+		display: none;
+	}
+	.placeholder {
+		display: none;
+	}
+	.history {
+		display: none;
+	}
+	.whoweare img {
+		display: none;
+	}
+	.foundation {
+		display: none;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 950px){
+	.hero {
+		width: 100%;
+	}
+	.hero form {
+		display: none;
+	}
+	.hero section h2 {
+		display: none;
+	}
+	.mission {
+		display: none;
+	}
+	.placeholder {
+		display: none;
+	}
+	.history {
+		display: none;
+	}
+	.whoweare img {
+		display: none;
+	}
+	.foundation {
+		display: none;
+	}
+}
